@@ -95,6 +95,7 @@ async function main() {
         if (Object.hasOwnProperty.call(tagsJson, filter)) {
             const tag = tagsJson[filter];
             console.log(tag);
+            console.log('test');
             var filterpanel = $('<div id="filterpanel_' + filter + '" class="filterpanel"></div>');
             var filterpanelhead = $('<div id="filterpanel_' + filter + '_head" class="filterpanelhead"></div>');
             filterpanelhead.text(filter);
